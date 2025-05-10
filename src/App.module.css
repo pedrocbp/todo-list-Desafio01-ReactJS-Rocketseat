@@ -1,0 +1,73 @@
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1rem;
+    margin-top: calc(0px - 1.5rem - 6px);
+}
+
+.home {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    width: 45.5rem;
+    height: 1.118rem;
+    color: var(--white);
+    margin-top: 5rem;
+}
+
+.home span {
+    color: var(--gray-200);
+    margin-left: 0.5rem;
+    background: var(--gray-400);
+    width: 1.563rem;
+    height: 1.188rem;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40%;
+}
+
+.createdTasks {
+    color: var(--blue-300);
+    font-weight: bold;
+}
+
+.completedTasks {
+    color: var(--purple-500);
+    font-weight: bold;
+}
+
+.empty {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.empty p {
+    color: var(--gray-300);
+    margin: 0.250em;
+}
+
+.empty img {
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.tasksList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px;
+    margin-top: 2rem;
+    position: relative;
+}
+
+.tasks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

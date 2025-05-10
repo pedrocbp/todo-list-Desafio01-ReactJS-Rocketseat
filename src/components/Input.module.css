@@ -1,0 +1,12 @@
+.input {
+    background: var(--gray-500);
+    color: var(--gray-300);
+    border-radius: 8px;
+    width: 39.875rem;
+    height: 3.375rem;
+    box-shadow: none;
+    outline: none;
+    resize: none; 
+}
+
+
